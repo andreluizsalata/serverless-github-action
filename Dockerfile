@@ -12,5 +12,5 @@ LABEL "com.github.actions.color"="red"
 
 RUN npm i -g serverless@3.x
 RUN npm i -g @serverless/compose@latest
-RUN sls plugin install -n serverless-python-requirements
+RUN serverless plugin install -n serverless-python-requirements
 ENTRYPOINT ["serverless"]
